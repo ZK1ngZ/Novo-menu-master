@@ -267,6 +267,9 @@ position: absolute;
    }
    .list-2{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+   }
+   li a ul{
 	text-decoration: none;
    }
    #qtd{
