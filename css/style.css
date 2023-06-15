@@ -267,6 +267,7 @@ position: absolute;
    }
    .list-2{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-decoration: none;
    }
    #qtd{
 	color: red;
