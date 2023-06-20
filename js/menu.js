@@ -1,4 +1,12 @@
+ document.querySelector('.menu-abrir').onclick = function() {
+    document.documentElement.classList.add('menu-ativo');
+ };
 
+var menuFechar = document.querySelector('.menu-fechar')
+menuFechar.addEventListener('click', menuFechar)
+function menuFechar() {
+    document.documentElement.classList.remove('menu-ativo');
+};
 
 document.documentElement.onclick = function(event) {
     if (event.target === document.documentElement) {
